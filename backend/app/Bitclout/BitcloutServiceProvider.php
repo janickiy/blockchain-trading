@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class BitcloutServiceProvider extends ServiceProvider
 {
+
     public function register()
     {
         $this->app->bind('bitclout', function ($app) {
